@@ -3,28 +3,28 @@ const codingLanguages = ["HTML", "CSS", "JavaScript"]
 // const codingLanguages = ["HTML", "CSS", "JavaScript", "Python", "Java", "C++"]
 
 function languages(codingLanguages){
-  let result = ""
+  let result = "";
   for (let i=0; i<codingLanguages.length; i++){
     
     let lang = codingLanguages[i];
 
-    let myItem = ""
+    let myItem = "";
     if (i == codingLanguages.length - 1) {
-      myItem = ""
+      myItem = "";
     } else if (i == codingLanguages.length -2) {
       myItem = " and ";
     } else {
       myItem = ", ";
     }
 
-    result = result + lang + myItem 
+    result = result + lang + myItem; 
   } 
 
   return result; 
 };
 
-const languagesText = languages(codingLanguages)
+const languagesText = languages(codingLanguages);
 console.log(languagesText);
 
 const myText = document.getElementById("languages");
-myText.innerText = languagesText
+myText.innerText = languagesText;

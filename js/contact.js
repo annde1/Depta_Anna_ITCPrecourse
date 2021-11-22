@@ -9,7 +9,7 @@ function checkAll(){
     for(let i=0; i<inputs.length; i++){
         if (inputs[i].value == ""){
             btn.disabled = true;
-            return
+            return;
         }
     }
 

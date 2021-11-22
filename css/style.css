@@ -93,22 +93,22 @@ nav li:hover {
 .socialLinksUL {
   padding: 0;
   margin: 0;
+  font-size: 1.9em;
 }
 
 .socialLinksUL li {
   float: left;
-  padding: 0 1rem 0 1rem;
+  padding: 0.5rem 1.6rem 0.5rem 1.6rem;
   list-style-type: none;
 }
 
 .card-container {
-  width: 100%;
+  width: 50%;
 }
 
 .form{
   margin-top: 0.5rem;
   display: block;
-  float: left;
   border: 1px solid white;
   border-radius: 8px;
   padding: 1em 1em 1em 1em;
@@ -126,7 +126,7 @@ button {
 
 footer{
   width: 100%;
-  height: 15em;
+  height: 12em;
   background-color:#282A35 ;
   margin-top: auto;
   color: white;
@@ -141,11 +141,12 @@ footer{
   display: inline;
 }
 .langContainer{
-  margin-bottom: 3rem;
-  margin-top: 1.5rem;
+  margin-bottom: 36px;
+  margin-top: 36px;
 }
 .items{
-  margin-top: 2rem;
+  margin: 24px 0 24px 0;
+  padding-left: 0;
 }
 .fullWidth{
   width: 100%;
@@ -209,4 +210,18 @@ line-height: 1.5em;
 
 .spin {
   animation: spin 3s ease-in-out infinite;
+}
+.mainBox{
+  margin: 2rem 22rem 2rem 22rem;
+  border: 1px solid white;
+  border-radius: 8px;
+  padding: 2em 2em 2em 2em;
+  line-height: 1.5em
+}
+.mainText{
+  font-weight: bold;
+}
+.redYustin{
+  color: red;
+  font-size: 1rem;
 }
